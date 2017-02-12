@@ -12,8 +12,14 @@ body{
 	border: .00001px solid black;
 }
 
-h1, h2{font-family: 'Oswald', sans-serif;
+h1{font-family: 'Oswald', sans-serif;
 margin: 10px;
+font-size: 2em; 
+}
+
+h2{font-family: 'Oswald', sans-serif;
+margin: 10px;
+font-size: 1.4em; 
 }
 
 nav{text-align: center;
@@ -37,15 +43,59 @@ h3{
 	margin: 10px;	
 }
 
+h4{
+	font-size: 1.5em;
+	font-family: 'Roboto Condensed', sans-serif;
+	margin: 50px 10px 10px 10px;
+}
+
 p{
 	font-family: 'Roboto Condensed', sans-serif;
 	text-align: left;
 	margin: 10px;
+	line-height: 1.2em;
 }
 
-ul{text-align: left
+ul{text-align: left; 
+	margin: 15px;
+	line-height: 1.5em;
 }
 
 li{font-family: 'Roboto Condensed', sans-serif;}
+
+#two_column{
+	background-color: #80aed6;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left{background-color: #809994;
+border: 1px black solid;
+padding: 20px;
+float: left;
+width: 44%;
+
+}
+
+#right{
+	background-color: #809994;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 44%;
+
+}
+
+
+
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+
+}
 
 footer{margin: 10px}
